@@ -1,0 +1,22 @@
+.espacamento{
+    padding: 60px 0;
+    border-bottom: 1px solid silver;
+}
+
+@media (max-width: 575px){
+    .ml-4{
+    margin-left: 0 !important;
+    }
+    .m-s{
+        margin-top: 15px;
+    }
+    .m-i{
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 767px){
+    .text-white span{
+        display: block;
+        margin-bottom: 20px;
+    }
+}
